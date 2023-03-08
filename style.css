@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0px;
+
+}
+
+
+.container {
+    width: 30vw;
+    height: 30vw;
+    background-color: gray;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    border-radius: 10px;
+}
+
+
+
+
+.quadrante{
+    display: flex;
+    
+
+
+}
+
+.quadrado{
+    width: 10vw;
+    height: 10vw;
+    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10vw;
+    text-align: center;
+
+    
+    
+    
+}
+
+.quadrado:hover{
+    background-color: aqua;
+    transition: 0.5s;
+
+
+}
+
+.refresh{
+    text-align: center;
+    background-color: #5fbd9d;
+    color: green;
+    font-size: 40px;
+    width: 200px;
+    height: 60px;
+
+
+}
+
+.restart{
+    text-align: center;
+    background-color: rgb(241, 120, 120);
+    color: rgb(248, 50, 0);
+    font-size: 40px;
+    width: 200px;
+    height: 60px;
+
+
+}
+
+body{
+    background-color: rgb(44, 44, 44);
+}
+
+
+.refresh:hover{
+    width: 250px;
+    transition: 0.6s;
+
+
+}
+
+.restart:hover{
+    width: 250px;
+    transition: 0.6s;
+
+
+}
