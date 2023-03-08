@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>jogo da velha</title>
+</head>
+<body>
+
+
+    <div class="container"> 
+
+        <div class="quadrante">
+            
+            <div class="quadrado" id="a1" onclick="colocar(this)"></div>
+            <div class="quadrado" id="a2" onclick="colocar(this)"></div>
+            <div class="quadrado" id="a3" onclick="colocar(this)"></div>
+
+        </div>
+
+        <div class="quadrante">
+
+            <div class="quadrado" id="b1" onclick="colocar(this)"></div>
+            <div class="quadrado" id="b2" onclick="colocar(this)"></div>
+            <div class="quadrado" id="b3" onclick="colocar(this)"></div>
+
+        </div>
+
+        <div class="quadrante">
+
+            <div class="quadrado" id="c1" onclick="colocar(this)"></div>
+            <div class="quadrado" id="c2" onclick="colocar(this)"></div>
+            <div class="quadrado" id="c3" onclick="colocar(this)"></div>
+
+
+        </div>
+        
+    </div>
+
+
+    <div class="restart">Refresh</div>
+    <div class="refresh" onclick="restart()">Restart</div>
+
+
+
+
+</body>
+<script src="script.js"></script>
+</html>
