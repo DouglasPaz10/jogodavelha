@@ -1,3 +1,4 @@
+
 function vencedor(resultado){
   if (resultado == 'X'){
 
@@ -131,3 +132,6 @@ function atualizar_pagina(){
 
 
 }
+
+
+
